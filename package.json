@@ -1,0 +1,60 @@
+{
+  "name": "logner",
+  "version": "1.0.0",
+  "description": "Simple logger for your NodeJS application.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "dev": "tsnd --respawn src/index.ts",
+    "build": "webpack",
+    "test": "node ./test.js"
+  },
+  "engines": {
+    "node": ">=10.3.x"
+  },
+  "author": {
+    "name": "Jove Jonovski",
+    "email": "jovejonovski@gmail.com",
+    "url": "https://github.com/datyin"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "fs-extra": "^9.0.1",
+    "moment": "^2.28.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node10": "^1.0.7",
+    "@types/fs-extra": "^9.0.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "ts-loader": "^8.0.3",
+    "ts-node": "^9.0.0",
+    "ts-node-dev": "^1.0.0-pre.62",
+    "typescript": "^4.0.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-node-externals": "^2.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datyin/logner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/datyin/logner/issues"
+  },
+  "homepage": "https://github.com/datyin/logner#readme",
+  "keywords": [
+    "backend",
+    "console",
+    "debug",
+    "log",
+    "logger",
+    "logging",
+    "output",
+    "print",
+    "stdout",
+    "sysadmin",
+    "terminal",
+    "tools"
+  ]
+}
