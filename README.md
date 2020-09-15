@@ -74,9 +74,9 @@ log.info('this is info message from some-other-file.js!');
 |Key|Type|Description|Required|Default|
 |---|----|-----------|--------|-------|
 |**rootDir**  |`string`|Log directory path.|:white_check_mark: Yes| N/A |
-|**logFiles** |`object`|Toggle which category can log into file.| :white_check_mark: No | See: Options: logFiles |
-|**logFormat**|`object`|Change format log files.| :white_check_mark: No | See: Options: logFormat |
-|**colors**   |`object`|Change specific category default color.| :white_check_mark: No | See: Options: colors |
+|**logFiles** |`object`|Toggle which category can log into file.| No | See: Options: logFiles |
+|**logFormat**|`object`|Change format log files.| No | See: Options: logFormat |
+|**colors**   |`object`|Change specific category default color.| No | See: Options: colors |
 
 <br>
 
